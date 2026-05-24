@@ -1,0 +1,26 @@
+{
+  "dataset": "SEED",
+  "model": "Deep4Net",
+  "run_tag": "formal",
+  "batch_size": 32,
+  "epochs": 100,
+  "learning_rate": 0.0005,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0005,
+  "label_smoothing": 0.02,
+  "grad_clip": 1.0,
+  "scheduler": "cosine",
+  "loss_fn": "CrossEntropyLoss",
+  "seed": 42,
+  "num_classes": 3,
+  "channels": 62,
+  "time_points": 400,
+  "sfreq": 200.0,
+  "categories": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "experiment_time": "20260524_083542",
+  "braindecode_model": "Deep4Net"
+}
