@@ -4,6 +4,15 @@ data/
 # 运行结果（队友可自行跑代码生成）
 results/
 _results/
+_results_braindecode/
+kaggle_debug_logs/
+kaggle_kernel_meta_check/
+kaggle_kernel_pulled/
+kaggle_outputs/
+kaggle_upload/
+kaggle_wheels_dataset/
+ml_project_data_kaggle.zip
+*.pt
 
 # Python 缓存
 __pycache__/

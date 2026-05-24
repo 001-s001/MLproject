@@ -1,0 +1,14 @@
+{
+  "id": "llllyu8568/ml-project-sota-braindecode",
+  "title": "ML Project SOTA Braindecode",
+  "code_file": "train_braindecode_sota_kaggle.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "llllyu8568/ml-project-eeg-data",
+    "llllyu8568/ml-project-braindecode-wheels"
+  ]
+}
