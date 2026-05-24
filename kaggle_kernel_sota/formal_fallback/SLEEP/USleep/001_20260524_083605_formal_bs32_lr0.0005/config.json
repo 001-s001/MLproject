@@ -1,0 +1,28 @@
+{
+  "dataset": "SLEEP",
+  "model": "USleep",
+  "run_tag": "formal",
+  "batch_size": 32,
+  "epochs": 100,
+  "learning_rate": 0.0005,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.02,
+  "grad_clip": 1.0,
+  "scheduler": "cosine",
+  "loss_fn": "CrossEntropyLoss",
+  "seed": 42,
+  "num_classes": 5,
+  "channels": 6,
+  "time_points": 6000,
+  "sfreq": 200.0,
+  "categories": [
+    "Wake",
+    "N1",
+    "N2",
+    "N3",
+    "REM"
+  ],
+  "experiment_time": "20260524_083605",
+  "braindecode_model": "USleep"
+}

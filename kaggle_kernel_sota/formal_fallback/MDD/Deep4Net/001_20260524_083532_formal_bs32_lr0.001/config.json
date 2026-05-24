@@ -1,0 +1,25 @@
+{
+  "dataset": "MDD",
+  "model": "Deep4Net",
+  "run_tag": "formal",
+  "batch_size": 32,
+  "epochs": 80,
+  "learning_rate": 0.001,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.05,
+  "grad_clip": 1.0,
+  "scheduler": "cosine",
+  "loss_fn": "CrossEntropyLoss",
+  "seed": 42,
+  "num_classes": 2,
+  "channels": 20,
+  "time_points": 200,
+  "sfreq": 200.0,
+  "categories": [
+    "Healthy Controls",
+    "Major Depressive Disorder"
+  ],
+  "experiment_time": "20260524_083532",
+  "braindecode_model": "Deep4Net"
+}
